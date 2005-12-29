@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-28 15:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/interface.c:32
+msgid "Nouvelle installation"
+msgstr ""
+
+#: ../src/interface.c:40
+msgid "Quitter"
+msgstr ""
+
+#: ../src/interface.c:52
+msgid "Préferences"
+msgstr ""
+
+#: ../src/interface.c:60
+msgid "Webcam"
+msgstr ""
+
+#: ../src/interface.c:72
+msgid "À Propos"
+msgstr ""
+
+#: ../src/interface.c:84
+msgid "_Fichier"
+msgstr ""
+
+#: ../src/interface.c:92
+msgid "Aide"
+msgstr ""
+
+#: ../src/interface.c:129 ../src/interface.c:332
+msgid "Easycam"
+msgstr ""
+
+#: ../src/interface.c:154 ../src/interface.c:234
+msgid "EasyCam"
+msgstr ""
+
+#: ../src/interface.c:155
+msgid ""
+"Bienvenu(e) dans l'assistant d'installation \n"
+"des drivers de Webcam sous Debian "
+msgstr ""
+
+#: ../src/interface.c:170
+msgid "Veuillez choisir votre webcam parmis la liste ci-dessous "
+msgstr ""
+
+#: ../src/interface.c:196
+msgid "Installation du drivers"
+msgstr ""
+
+#: ../src/interface.c:203
+msgid "Installation ....."
+msgstr ""
+
+#: ../src/interface.c:226
+msgid "Lancer l'installation"
+msgstr ""
+
+#: ../src/interface.c:235
+msgid ""
+"L'installation est terminé ! \n"
+"Pour tester votre webcam : Outils -> Webcam"
+msgstr ""
+
+#: ../src/interface.c:333
+msgid "Copyright (c) 2005 L'équipe EasyCam\n"
+msgstr ""
+
+#: ../src/interface.c:334
+msgid ""
+"Installateur de Drivers pour Webcam \n"
+"sous Debian (et dérivé)"
+msgstr ""
+
+#: ../src/interface.c:335
+msgid "General Public Licence (GPL)"
+msgstr ""
+
+#: ../src/interface.c:367 ../src/interface.c:394
+msgid "Propriétés"
+msgstr ""
+
+#: ../src/interface.c:404
+msgid "Choix de la distribution : "
+msgstr ""
+
+#: ../src/interface.c:409
+msgid "Ubuntu"
+msgstr ""
+
+#: ../src/interface.c:416
+msgid "Debian"
+msgstr ""
+
+#: ../src/interface.c:460
+msgid "Log"
+msgstr ""
+
+#: ../src/interface.c:481
+msgid ""
+"L'installation a échoué ! Vous pouvais consulter le log \n"
+"ci-dessous où les messages d'erreur ont étais enrengistré. \n"
+"Pour recevoir de l'aide, veuillez vous adresser\n"
+"a une des adresses suivantes : \n"
+"\n"
+"E-Mail : jbtheou@gmail.com\n"
+"Forum : http://forum.ubuntu-fr.org/viewtopic.php?id=16670\n"
+"\n"
+"Merci "
+msgstr ""
+
+#: ../src/support.c:60 ../src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""

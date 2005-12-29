@@ -1,0 +1,35 @@
+# change log
+#
+# 2005-12-27 [mistr] USB IDs added from source: pwc-if.c
+#
+homepage http://www.smcc.demon.nl/webcam/
+needs 3.0
+
+ID 0471:0302 Philips PCA645VC
+ID 0471:0303 Philips PCA646VC
+ID 0471:0304 Askey VC010 type 2 (?)
+ID 0471:0307 Philips PCVC675K (Vesta)
+ID 0471:0308 Philips PCVC680K (Vesta Pro)
+ID 0471:030C Philips PCVC690K (Vesta Pro Scan)
+ID 0471:0310 Philips PCVC730K (ToUCam Fun)
+ID 0471:0311 Philips PCVC740K (ToUcam Pro/PRO II)
+ID 0471:0312 Philips PCVC750K (ToUCam Pro Scan)
+ID 0471:0313 Philips PCVC720K/40 (ToUCam XS)
+ID 069A:0001 Askey VC010 type 1
+ID 046D:08B0 Logitech QuickCam Pro 3000
+ID 046D:08B1 Logitech QuickCam Notebook Pro
+ID 046D:08B2 Logitech QuickCam Pro 4000
+ID 046D:08B3 Logitech QuickCam Zoom (old model)
+ID 046D:08B4 Logitech QuickCam Zoom (new model)
+ID 046D:08B5 Logitech QuickCam Orbit/Sphere
+ID 046D:08B6 Logitech (reserved)
+ID 046D:08B7 Logitech (reserved)
+ID 046D:08B8 Logitech (reserved)
+ID 055D:9000 Samsung MPC-C10
+ID 055D:9001 Samsung MPC-C30
+ID 041E:400C Creative Labs Webcam 5
+ID 041E:4011 Creative Labs Webcam Pro Ex
+ID 04CC:8116 Afina Eye
+ID 06BE:8116 new Afina Eye
+ID 0d81:1900 Visionite VCS-UM100
+ID 0d81:1910 Visionite VCS-UC300

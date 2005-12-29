@@ -1,0 +1,31 @@
+# change log
+#
+# 2005-12-27 [mistr] cams definied in ov51x.c
+homepage http://alpha.dyndns.org/ov511/
+needs 3.0
+
+ID 05A9:0511 OmniVision Technologies, Inc., OV511
+ID 05A9:A511 OmniVision Technologies, Inc., OV511PLUS
+ID 05A9:0518 OmniVision Technologies, Inc., OV518
+ID 05A9:A518 OmniVision Technologies, Inc., OV518PLUS
+ID 05A9:0519 OmniVision Technologies, Inc., OV519 (not yet seen)
+ID 05A9:1519 OmniVision Technologies, Inc., OV1519 (not yet seen)
+ID 05A9:2519 OmniVision Technologies, Inc., OV2519 (not yet seen)
+ID 05A9:3519 OmniVision Technologies, Inc., OV3519 (not yet seen)
+ID 05A9:4519 OmniVision Technologies, Inc., OV4519
+ID 05A9:5519 OmniVision Technologies, Inc., OV5519 (not yet seen)
+ID 05A9:6519 OmniVision Technologies, Inc., OV6519 (not yet seen)
+ID 05A9:7519 OmniVision Technologies, Inc., OV7519 (not yet seen)
+ID 05A9:8519 OmniVision Technologies, Inc., OV8519
+ID 05A9:9519 OmniVision Technologies, Inc., OV9519 (not yet seen)
+ID 05A9:A519 OmniVision Technologies, Inc., OVA519 (not yet seen)
+ID 05A9:B519 OmniVision Technologies, Inc., OVB519 (not yet seen)
+ID 05A9:C519 OmniVision Technologies, Inc., OVC519 (not yet seen)
+ID 05A9:D519 OmniVision Technologies, Inc., OVD519 (not yet seen)
+ID 05A9:E519 OmniVision Technologies, Inc., OVE519 (not yet seen)
+ID 05A9:F519 OmniVision Technologies, Inc., OVF519 (not yet seen)
+ID 05A9:0530 OmniVision Technologies, Inc., OV530
+ID 054c:0154 Sony, EYETOY4
+ID 054c:0155 Sony, PROD_EYETOY5
+ID 0813:0002 Mattel, Me2Cam
+ID 045e:028c Microsoft, XBOX Cam

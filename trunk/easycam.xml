@@ -1,0 +1,869 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<easycam xmlns='http://blognux.free.fr/easycam' xmlns:easycam='http://blognux.free.fr/easycam' xmlns:driver='http://blognux.free.fr/easycam' easycam:url='http://blognux.free.fr/easycam/latestconfig.xml' easycam:date='2005-12-29'>
+  <driver driver:needs='3.0' driver:name='ov511' driver:homepage='http://ovcam.org/ov511/'>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc. OV511 WebCam</cameraname>
+      <usbid>05a9:0511</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc. OV511+ WebCam</cameraname>
+      <usbid>05a9:a511</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc. OV518 WebCam</cameraname>
+      <usbid>05a9:0518</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc. OV518+ WebCam</cameraname>
+      <usbid>05a9:a518</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mattel Inc. Me2Cam WebCam</cameraname>
+      <usbid>0813:0002</usbid>
+    </camera>
+  </driver>
+  <driver driver:needs='3.0' driver:name='ov519' driver:homepage='http://alpha.dyndns.org/ov511/'>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV511</cameraname>
+      <usbid>05a9:0511</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV511PLUS</cameraname>
+      <usbid>05a9:a511</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV518</cameraname>
+      <usbid>05a9:0518</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV518PLUS</cameraname>
+      <usbid>05a9:a518</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV519 (not yet seen)</cameraname>
+      <usbid>05a9:0519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV1519 (not yet seen)</cameraname>
+      <usbid>05a9:1519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV2519 (not yet seen)</cameraname>
+      <usbid>05a9:2519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV3519 (not yet seen)</cameraname>
+      <usbid>05a9:3519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV4519</cameraname>
+      <usbid>05a9:4519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV5519 (not yet seen)</cameraname>
+      <usbid>05a9:5519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV6519 (not yet seen)</cameraname>
+      <usbid>05a9:6519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV7519 (not yet seen)</cameraname>
+      <usbid>05a9:7519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV8519</cameraname>
+      <usbid>05a9:8519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV9519 (not yet seen)</cameraname>
+      <usbid>05a9:9519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVA519 (not yet seen)</cameraname>
+      <usbid>05a9:a519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVB519 (not yet seen)</cameraname>
+      <usbid>05a9:b519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVC519 (not yet seen)</cameraname>
+      <usbid>05a9:c519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVD519 (not yet seen)</cameraname>
+      <usbid>05a9:d519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVE519 (not yet seen)</cameraname>
+      <usbid>05a9:e519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OVF519 (not yet seen)</cameraname>
+      <usbid>05a9:f519</usbid>
+    </camera>
+    <camera>
+      <cameraname>OmniVision Technologies, Inc., OV530</cameraname>
+      <usbid>05a9:0530</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sony, EYETOY4</cameraname>
+      <usbid>054c:0154</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sony, PROD_EYETOY5</cameraname>
+      <usbid>054c:0155</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mattel, Me2Cam</cameraname>
+      <usbid>0813:0002</usbid>
+    </camera>
+    <camera>
+      <cameraname>Microsoft, XBOX Cam</cameraname>
+      <usbid>045e:028c</usbid>
+    </camera>
+  </driver>
+  <driver driver:needs='3.0' driver:name='pwc' driver:homepage='http://www.smcc.demon.nl/webcam/'>
+    <camera>
+      <cameraname>Philips PCA645VC</cameraname>
+      <usbid>0471:0302</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCA646VC</cameraname>
+      <usbid>0471:0303</usbid>
+    </camera>
+    <camera>
+      <cameraname>Askey VC010 type 2 (?)</cameraname>
+      <usbid>0471:0304</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC675K (Vesta)</cameraname>
+      <usbid>0471:0307</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC680K (Vesta Pro)</cameraname>
+      <usbid>0471:0308</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC690K (Vesta Pro Scan)</cameraname>
+      <usbid>0471:030c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC730K (ToUCam Fun)</cameraname>
+      <usbid>0471:0310</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC740K (ToUcam Pro/PRO II)</cameraname>
+      <usbid>0471:0311</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC750K (ToUCam Pro Scan)</cameraname>
+      <usbid>0471:0312</usbid>
+    </camera>
+    <camera>
+      <cameraname>Philips PCVC720K/40 (ToUCam XS)</cameraname>
+      <usbid>0471:0313</usbid>
+    </camera>
+    <camera>
+      <cameraname>Askey VC010 type 1</cameraname>
+      <usbid>069a:0001</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Pro 3000</cameraname>
+      <usbid>046d:08b0</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Notebook Pro</cameraname>
+      <usbid>046d:08b1</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Pro 4000</cameraname>
+      <usbid>046d:08b2</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Zoom (old model)</cameraname>
+      <usbid>046d:08b3</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Zoom (new model)</cameraname>
+      <usbid>046d:08b4</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam Orbit/Sphere</cameraname>
+      <usbid>046d:08b5</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech (reserved)</cameraname>
+      <usbid>046d:08b6</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech (reserved)</cameraname>
+      <usbid>046d:08b7</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech (reserved)</cameraname>
+      <usbid>046d:08b8</usbid>
+    </camera>
+    <camera>
+      <cameraname>Samsung MPC-C10</cameraname>
+      <usbid>055d:9000</usbid>
+    </camera>
+    <camera>
+      <cameraname>Samsung MPC-C30</cameraname>
+      <usbid>055d:9001</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Labs Webcam 5</cameraname>
+      <usbid>041e:400c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Labs Webcam Pro Ex</cameraname>
+      <usbid>041e:4011</usbid>
+    </camera>
+    <camera>
+      <cameraname>Afina Eye</cameraname>
+      <usbid>04cc:8116</usbid>
+    </camera>
+    <camera>
+      <cameraname>new Afina Eye</cameraname>
+      <usbid>06be:8116</usbid>
+    </camera>
+    <camera>
+      <cameraname>Visionite VCS-UM100</cameraname>
+      <usbid>0d81:1900</usbid>
+    </camera>
+    <camera>
+      <cameraname>Visionite VCS-UC300</cameraname>
+      <usbid>0d81:1910</usbid>
+    </camera>
+  </driver>
+  <driver driver:needs='3.0' driver:name='qcnews' driver:homepage='http://qce-ga.sourceforge.net'>
+    <camera>
+      <cameraname>Logitech, Inc., QuickCam Messenger</cameraname>
+      <usbid>046d:08f0</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech, Inc., QuickCam Communicate</cameraname>
+      <usbid>046d:08f5</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech, Inc., QuickCam Messenger (new)</cameraname>
+      <usbid>046d:08f6</usbid>
+    </camera>
+  </driver>
+  <driver driver:needs='3.0' driver:source='http://mxhaard.free.fr/spca50x/Download/spca5xx-20051212.tar.gz' driver:name='spca' driver:homepage='http://mxhaard.free.fr'>
+    <camera>
+      <cameraname>Intel PC Camera Pro</cameraname>
+      <usbid>0733:0430</usbid>
+    </camera>
+    <camera>
+      <cameraname>Intel Create and Share</cameraname>
+      <usbid>0733:0401</usbid>
+    </camera>
+    <camera>
+      <cameraname>Grandtec V.cap</cameraname>
+      <usbid>99fa:8988</usbid>
+    </camera>
+    <camera>
+      <cameraname>ViewQuest M318B</cameraname>
+      <usbid>0733:0402</usbid>
+    </camera>
+    <camera>
+      <cameraname>ViewQuest VQ110</cameraname>
+      <usbid>0733:0110</usbid>
+    </camera>
+    <camera>
+      <cameraname>Kodak DVC-325</cameraname>
+      <usbid>040a:0002</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek gSmart Mini 2</cameraname>
+      <usbid>055f:c420</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek gSmart Mini 3</cameraname>
+      <usbid>055f:c520</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative PC-CAM 300</cameraname>
+      <usbid>041e:400a</usbid>
+    </camera>
+    <camera>
+      <cameraname>D-Link DSC-350</cameraname>
+      <usbid>084d:0003</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative PC-CAM 600</cameraname>
+      <usbid>041e:400b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Intel Pocket PC Camera</cameraname>
+      <usbid>8086:0630</usbid>
+    </camera>
+    <camera>
+      <cameraname>Intel Easy PC Camera</cameraname>
+      <usbid>8086:0110</usbid>
+    </camera>
+    <camera>
+      <cameraname>3Com HomeConnect Lite</cameraname>
+      <usbid>0506:00df</usbid>
+    </camera>
+    <camera>
+      <cameraname>Kodak EZ200</cameraname>
+      <usbid>040a:0300</usbid>
+    </camera>
+    <camera>
+      <cameraname>Maxell MaxPocket LE 1.3</cameraname>
+      <usbid>04fc:504b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek Mini PenCam 2 M</cameraname>
+      <usbid>08ca:2008</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketDVII 1.3</cameraname>
+      <usbid>08ca:0104</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek Pencam SD 2M</cameraname>
+      <usbid>08ca:2018</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek Mini PenCam 1.3</cameraname>
+      <usbid>04fc:504a</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek Gsmart LCD 3</cameraname>
+      <usbid>055f:c530</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek MDC5500Z</cameraname>
+      <usbid>055f:c650</usbid>
+    </camera>
+    <camera>
+      <cameraname>Megapix V4</cameraname>
+      <usbid>052b:1513</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketDV</cameraname>
+      <usbid>08ca:0103</usbid>
+    </camera>
+    <camera>
+      <cameraname>Hama USB Sightcam 100</cameraname>
+      <usbid>0af9:0010</usbid>
+    </camera>
+    <camera>
+      <cameraname>Arowana 300K CMOS Camera</cameraname>
+      <usbid>1776:501c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek Pocket DV3100+</cameraname>
+      <usbid>08ca:0106</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketCam 3M</cameraname>
+      <usbid>08ca:2010</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius VideoCAM Express V2</cameraname>
+      <usbid>0458:7004</usbid>
+    </camera>
+    <camera>
+      <cameraname>Flexcam 100</cameraname>
+      <usbid>04fc:0561</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek Gsmart LCD 2</cameraname>
+      <usbid>055f:c430</usbid>
+    </camera>
+    <camera>
+      <cameraname>Pure DigitalDakota</cameraname>
+      <usbid>04fc:ffff</usbid>
+    </camera>
+    <camera>
+      <cameraname>Petcam</cameraname>
+      <usbid>abcd:cdee</usbid>
+    </camera>
+    <camera>
+      <cameraname>Benq DC 1500</cameraname>
+      <usbid>04a5:3008</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech Inc. ClickSmart 420</cameraname>
+      <usbid>046d:0960</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech Inc. ClickSmart 510</cameraname>
+      <usbid>046d:0901</usbid>
+    </camera>
+    <camera>
+      <cameraname>Benq DC 1300</cameraname>
+      <usbid>04a5:3003</usbid>
+    </camera>
+    <camera>
+      <cameraname>Hama USB Sightcam 100</cameraname>
+      <usbid>0af9:0011</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek DV 3000</cameraname>
+      <usbid>055f:c440</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Pccam750</cameraname>
+      <usbid>041e:4013</usbid>
+    </camera>
+    <camera>
+      <cameraname>Maxell Compact Pc PM3</cameraname>
+      <usbid>060b:a001</usbid>
+    </camera>
+    <camera>
+      <cameraname>Benq DC3410</cameraname>
+      <usbid>04a5:300a</usbid>
+    </camera>
+    <camera>
+      <cameraname>Benq DC1016</cameraname>
+      <usbid>04a5:300c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Micro Innovation IC200</cameraname>
+      <usbid>0461:0815</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam traveler</cameraname>
+      <usbid>046d:0890</usbid>
+    </camera>
+    <camera>
+      <cameraname>FlyCam Usb 100</cameraname>
+      <usbid>10fd:7e50</usbid>
+    </camera>
+    <camera>
+      <cameraname>ADS Instant VCD</cameraname>
+      <usbid>06e1:a190</usbid>
+    </camera>
+    <camera>
+      <cameraname>Gsmart Mini</cameraname>
+      <usbid>055f:c220</usbid>
+    </camera>
+    <camera>
+      <cameraname>Jenoptik jdc 21 LCD</cameraname>
+      <usbid>0733:2211</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech Inc. ClickSmart 310</cameraname>
+      <usbid>046d:0900</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek DV4000 Mpeg4</cameraname>
+      <usbid>055f:c360</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek DV3500 Mpeg4</cameraname>
+      <usbid>08ca:2024</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech ClickSmart820</cameraname>
+      <usbid>046d:0905</usbid>
+    </camera>
+    <camera>
+      <cameraname>Digital Dream Enigma 1.3</cameraname>
+      <usbid>05da:1018</usbid>
+    </camera>
+    <camera>
+      <cameraname>Xcam Shanga</cameraname>
+      <usbid>0c45:6025</usbid>
+    </camera>
+    <camera>
+      <cameraname>Digital Dream Epsilon 1.3</cameraname>
+      <usbid>0733:1311</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Webcam NX ULTRA</cameraname>
+      <usbid>041e:401d</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketCam 2 Mega</cameraname>
+      <usbid>08ca:2016</usbid>
+    </camera>
+    <camera>
+      <cameraname>3DeMon USB Capture aka</cameraname>
+      <usbid>0734:043b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Webcam Vista (PD1100)</cameraname>
+      <usbid>041e:4018</usbid>
+    </camera>
+    <camera>
+      <cameraname>Polaroid PDC2030</cameraname>
+      <usbid>0546:3273</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Webcam Notebook PD1171</cameraname>
+      <usbid>041e:401f</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Webcam Mobile PD1090</cameraname>
+      <usbid>041e:4017</usbid>
+    </camera>
+    <camera>
+      <cameraname>Labtec Webcam Pro</cameraname>
+      <usbid>046d:08a2</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek WCam300A</cameraname>
+      <usbid>055f:d003</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius VideoCam V2</cameraname>
+      <usbid>0458:7007</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius VideoCam V3</cameraname>
+      <usbid>0458:700c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius VideoCam Web V2</cameraname>
+      <usbid>0458:700f</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Nx Pro</cameraname>
+      <usbid>041e:401e</usbid>
+    </camera>
+    <camera>
+      <cameraname>spcaCam@150</cameraname>
+      <usbid>0c45:6029</usbid>
+    </camera>
+    <camera>
+      <cameraname>spcaCam@120</cameraname>
+      <usbid>0c45:6009</usbid>
+    </camera>
+    <camera>
+      <cameraname>spcaCam@120</cameraname>
+      <usbid>0c45:600d</usbid>
+    </camera>
+    <camera>
+      <cameraname>Digitrex 2110</cameraname>
+      <usbid>04fc:5330</usbid>
+    </camera>
+    <camera>
+      <cameraname>Gsmart D30</cameraname>
+      <usbid>055f:c540</usbid>
+    </camera>
+    <camera>
+      <cameraname>Asam Vimicro</cameraname>
+      <usbid>0ac8:301b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Nx Pro 2</cameraname>
+      <usbid>041e:403a</usbid>
+    </camera>
+    <camera>
+      <cameraname>Kowa Bs888e Microcamera</cameraname>
+      <usbid>055f:c211</usbid>
+    </camera>
+    <camera>
+      <cameraname>Z-star Vimicro zc0302</cameraname>
+      <usbid>0ac8:0302</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Notebook cx11646</cameraname>
+      <usbid>0572:0041</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek Slim 3200</cameraname>
+      <usbid>08ca:2022</usbid>
+    </camera>
+    <camera>
+      <cameraname>Labtec Webcam</cameraname>
+      <usbid>046d:0921</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech, Inc. QuickCam Express</cameraname>
+      <usbid>046d:0920</usbid>
+    </camera>
+    <camera>
+      <cameraname>ICM532 cams</cameraname>
+      <usbid>0923:010f</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek Gsmart 300</cameraname>
+      <usbid>055f:c200</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mercury Digital Pro 3.1p</cameraname>
+      <usbid>0733:2221</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Live !</cameraname>
+      <usbid>041e:4036</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek Wcam300A</cameraname>
+      <usbid>055f:c005</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Webcam Vista (VF0010)</cameraname>
+      <usbid>041e:403b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Veo Stingray</cameraname>
+      <usbid>0545:8333</usbid>
+    </camera>
+    <camera>
+      <cameraname>Veo Stingray</cameraname>
+      <usbid>0545:808b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Typhoon Webshot II USB 300k</cameraname>
+      <usbid>10fd:8050</usbid>
+    </camera>
+    <camera>
+      <cameraname>Polaroid PDC3070</cameraname>
+      <usbid>0546:3155</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC Express Etch2</cameraname>
+      <usbid>046d:0928</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC for Notebook</cameraname>
+      <usbid>046d:092a</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC IM</cameraname>
+      <usbid>046d:08a0</usbid>
+    </camera>
+    <camera>
+      <cameraname>MicroInnovation WebCam320</cameraname>
+      <usbid>0461:0a00</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketCam4M</cameraname>
+      <usbid>08ca:2028</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketDV5100</cameraname>
+      <usbid>08ca:2042</usbid>
+    </camera>
+    <camera>
+      <cameraname>Aiptek PocketDV5300</cameraname>
+      <usbid>08ca:2060</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sunplus Generic</cameraname>
+      <usbid>04fc:5360</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC IM 0x08A1 +sound</cameraname>
+      <usbid>046d:08a1</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC Chat</cameraname>
+      <usbid>046d:08a3</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC IM ???</cameraname>
+      <usbid>046d:08b9</usbid>
+    </camera>
+    <camera>
+      <cameraname>Labtec Webcam Elch2</cameraname>
+      <usbid>046d:0929</usbid>
+    </camera>
+    <camera>
+      <cameraname>Typhoon Webshot II USB 300k 0x0128</cameraname>
+      <usbid>10fd:0128</usbid>
+    </camera>
+    <camera>
+      <cameraname>Qcam Sangha CIF</cameraname>
+      <usbid>102c:6151</usbid>
+    </camera>
+    <camera>
+      <cameraname>Qcam xxxxxx VGA</cameraname>
+      <usbid>102c:6251</usbid>
+    </camera>
+    <camera>
+      <cameraname>PalmPixDC85</cameraname>
+      <usbid>04fc:7333</usbid>
+    </camera>
+    <camera>
+      <cameraname>Optimedia</cameraname>
+      <usbid>06be:0800</usbid>
+    </camera>
+    <camera>
+      <cameraname>Toptro Industrial</cameraname>
+      <usbid>2899:012c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Agfa CL20</cameraname>
+      <usbid>06bd:0404</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QC chat Elch2</cameraname>
+      <usbid>046d:092c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sonix sn9c102p Hv7131R</cameraname>
+      <usbid>0c45:607c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Concord 3045 spca536a</cameraname>
+      <usbid>0733:3261</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mercury 2.1MEG Deluxe Classic Cam</cameraname>
+      <usbid>0733:1314</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative NX</cameraname>
+      <usbid>041e:401c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Instant P0620</cameraname>
+      <usbid>041e:4034</usbid>
+    </camera>
+    <camera>
+      <cameraname>Creative Instant P0620D</cameraname>
+      <usbid>041e:4035</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QuickCam for Notebooks</cameraname>
+      <usbid>046d:08ae</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek WCam300 AN</cameraname>
+      <usbid>055f:d004</usbid>
+    </camera>
+    <camera>
+      <cameraname>Labtec Webcam Plus</cameraname>
+      <usbid>046d:092b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius VideoCam Messenger</cameraname>
+      <usbid>0c45:602e</usbid>
+    </camera>
+    <camera>
+      <cameraname>Generic Sonix OV7630</cameraname>
+      <usbid>0c45:602c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mars-Semi Pc-Camera</cameraname>
+      <usbid>093a:050f</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius Dsc 1.3 Smart</cameraname>
+      <usbid>0458:7006</usbid>
+    </camera>
+    <camera>
+      <cameraname>Mustek MDC4000</cameraname>
+      <usbid>055f:c630</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech QCCommunicate STX</cameraname>
+      <usbid>046d:08ad</usbid>
+    </camera>
+    <camera>
+      <cameraname>LIC-200 LG</cameraname>
+      <usbid>0c45:602d</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sweex Tas5110</cameraname>
+      <usbid>0c45:6005</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sonix Pccam168</cameraname>
+      <usbid>0c45:613c</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sonix Pccam</cameraname>
+      <usbid>0c45:6130</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sangha Sn535</cameraname>
+      <usbid>0c45:60c0</usbid>
+    </camera>
+    <camera>
+      <cameraname>LG-LIC300</cameraname>
+      <usbid>0c45:60fc</usbid>
+    </camera>
+    <camera>
+      <cameraname>Polaroid Ion 80</cameraname>
+      <usbid>0546:3191</usbid>
+    </camera>
+    <camera>
+      <cameraname>Z-star Vimicro zc0305b</cameraname>
+      <usbid>0ac8:305b</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sonix Btc Pc380</cameraname>
+      <usbid>0c45:6028</usbid>
+    </camera>
+    <camera>
+      <cameraname>Logitech Notebook Deluxe</cameraname>
+      <usbid>046d:08a9</usbid>
+    </camera>
+    <camera>
+      <cameraname>Labtec Webcam  Notebook</cameraname>
+      <usbid>046d:08aa</usbid>
+    </camera>
+    <camera>
+      <cameraname>JVC GC A50</cameraname>
+      <usbid>04f1:1001</usbid>
+    </camera>
+    <camera>
+      <cameraname>Smile International</cameraname>
+      <usbid>0497:c001</usbid>
+    </camera>
+    <camera>
+      <cameraname>PC-Cam350</cameraname>
+      <usbid>041e:4012</usbid>
+    </camera>
+    <camera>
+      <cameraname>Vimicro 0x303b</cameraname>
+      <usbid>0ac8:303b</usbid>
+    </camera>
+    <camera>
+      <cameraname>PAC207</cameraname>
+      <usbid>093a:2468</usbid>
+    </camera>
+    <camera>
+      <cameraname>PAC207 Genius VideoCam ge111</cameraname>
+      <usbid>093a:2471</usbid>
+    </camera>
+    <camera>
+      <cameraname>PAC207 Qtec Webcam 100</cameraname>
+      <usbid>093a:2460</usbid>
+    </camera>
+    <camera>
+      <cameraname>Cyberpix S550V</cameraname>
+      <usbid>0733:3281</usbid>
+    </camera>
+    <camera>
+      <cameraname>Genius GF112</cameraname>
+      <usbid>093a:2470</usbid>
+    </camera>
+  </driver>
+  <driver driver:needs='3.0' driver:name='sqcam' driver:homepage='http://sqcam.sourceforge.net/'>
+    <camera>
+      <cameraname>NHJ, Ltd Che-ez! Snap / iClick Tiny VGA Digital Camera</cameraname>
+      <usbid>2770:9120</usbid>
+    </camera>
+  </driver>
+  <driver driver:name='toys' driver:needs='3.0'>
+    <camera>
+      <cameraname>Sony Corp., Eye toy 4</cameraname>
+      <usbid>054c:0154</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sony Corp., Eye toy 5</cameraname>
+      <usbid>054c:0155</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sony Corp., Eye toy 5</cameraname>
+      <usbid>054c:0156</usbid>
+    </camera>
+    <camera>
+      <cameraname>Sony Corp., Eye toy 5</cameraname>
+      <usbid>054c:0157</usbid>
+    </camera>
+  </driver>
+</easycam>

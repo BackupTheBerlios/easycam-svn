@@ -1,0 +1,859 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+<requires lib="gnome"/>
+<requires lib="bonobo"/>
+
+<widget class="GnomeApp" id="EasyCamwindows">
+  <property name="width_request">519</property>
+  <property name="height_request">318</property>
+  <property name="visible">True</property>
+  <property name="title" translatable="yes">Easycam</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_NONE</property>
+  <property name="modal">False</property>
+  <property name="default_width">519</property>
+  <property name="default_height">321</property>
+  <property name="resizable">False</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="icon">video-preview.png</property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_NORTH_WEST</property>
+  <property name="focus_on_map">True</property>
+  <property name="urgency_hint">False</property>
+  <property name="enable_layout_config">True</property>
+
+  <child internal-child="dock">
+    <widget class="BonoboDock" id="bonobodock1">
+      <property name="visible">True</property>
+      <property name="allow_floating">True</property>
+
+      <child>
+	<widget class="BonoboDockItem" id="bonobodockitem1">
+	  <property name="visible">True</property>
+	  <property name="shadow_type">GTK_SHADOW_NONE</property>
+
+	  <child>
+	    <widget class="GtkMenuBar" id="menubar1">
+	      <property name="visible">True</property>
+	      <property name="pack_direction">GTK_PACK_DIRECTION_LTR</property>
+	      <property name="child_pack_direction">GTK_PACK_DIRECTION_LTR</property>
+
+	      <child>
+		<widget class="GtkImageMenuItem" id="fichier">
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">_Fichier</property>
+		  <property name="use_underline">True</property>
+
+		  <child internal-child="image">
+		    <widget class="GtkImage" id="image201">
+		      <property name="visible">True</property>
+		      <property name="stock">gnome-stock-book-open</property>
+		      <property name="icon_size">1</property>
+		      <property name="xalign">0.5</property>
+		      <property name="yalign">0.5</property>
+		      <property name="xpad">0</property>
+		      <property name="ypad">0</property>
+		    </widget>
+		  </child>
+
+		  <child>
+		    <widget class="GtkMenu" id="fichier_menu">
+
+		      <child>
+			<widget class="GtkImageMenuItem" id="newinstall">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Nouvelle installation</property>
+			  <property name="use_underline">True</property>
+			  <signal name="activate" handler="on_newinstall_activate" last_modification_time="Wed, 21 Dec 2005 15:42:06 GMT"/>
+
+			  <child internal-child="image">
+			    <widget class="GtkImage" id="image202">
+			      <property name="visible">True</property>
+			      <property name="stock">gtk-redo</property>
+			      <property name="icon_size">1</property>
+			      <property name="xalign">0.5</property>
+			      <property name="yalign">0.5</property>
+			      <property name="xpad">0</property>
+			      <property name="ypad">0</property>
+			    </widget>
+			  </child>
+			</widget>
+		      </child>
+
+		      <child>
+			<widget class="GtkSeparatorMenuItem" id="séparateur2">
+			  <property name="visible">True</property>
+			</widget>
+		      </child>
+
+		      <child>
+			<widget class="GtkImageMenuItem" id="quit">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Quitter</property>
+			  <property name="use_underline">True</property>
+			  <signal name="activate" handler="on_quit_activate" last_modification_time="Wed, 21 Dec 2005 15:42:38 GMT"/>
+
+			  <child internal-child="image">
+			    <widget class="GtkImage" id="image203">
+			      <property name="visible">True</property>
+			      <property name="stock">gtk-quit</property>
+			      <property name="icon_size">1</property>
+			      <property name="xalign">0.5</property>
+			      <property name="yalign">0.5</property>
+			      <property name="xpad">0</property>
+			      <property name="ypad">0</property>
+			    </widget>
+			  </child>
+			</widget>
+		      </child>
+		    </widget>
+		  </child>
+		</widget>
+	      </child>
+
+	      <child>
+		<widget class="GtkImageMenuItem" id="tools">
+		  <property name="visible">True</property>
+		  <property name="stock_item">GNOMEUIINFO_MENU_PROPERTIES_ITEM</property>
+		  <signal name="activate" handler="on_outils_activate" last_modification_time="Wed, 21 Dec 2005 15:43:56 GMT"/>
+
+		  <child>
+		    <widget class="GtkMenu" id="tools_menu">
+
+		      <child>
+			<widget class="GtkImageMenuItem" id="properties">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Préferences</property>
+			  <property name="use_underline">True</property>
+			  <signal name="activate" handler="on_properties_activate" last_modification_time="Sat, 24 Dec 2005 10:13:54 GMT"/>
+
+			  <child internal-child="image">
+			    <widget class="GtkImage" id="image204">
+			      <property name="visible">True</property>
+			      <property name="stock">gtk-preferences</property>
+			      <property name="icon_size">1</property>
+			      <property name="xalign">0.5</property>
+			      <property name="yalign">0.5</property>
+			      <property name="xpad">0</property>
+			      <property name="ypad">0</property>
+			    </widget>
+			  </child>
+			</widget>
+		      </child>
+
+		      <child>
+			<widget class="GtkSeparatorMenuItem" id="séparateur3">
+			  <property name="visible">True</property>
+			</widget>
+		      </child>
+
+		      <child>
+			<widget class="GtkImageMenuItem" id="webcam">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Webcam</property>
+			  <property name="use_underline">True</property>
+			  <signal name="activate" handler="on_webcam_activate" last_modification_time="Wed, 21 Dec 2005 15:44:12 GMT"/>
+
+			  <child internal-child="image">
+			    <widget class="GtkImage" id="image205">
+			      <property name="visible">True</property>
+			      <property name="stock">gtk-jump-to</property>
+			      <property name="icon_size">1</property>
+			      <property name="xalign">0.5</property>
+			      <property name="yalign">0.5</property>
+			      <property name="xpad">0</property>
+			      <property name="ypad">0</property>
+			    </widget>
+			  </child>
+			</widget>
+		      </child>
+		    </widget>
+		  </child>
+		</widget>
+	      </child>
+
+	      <child>
+		<widget class="GtkImageMenuItem" id="aide">
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Aide</property>
+		  <property name="use_underline">True</property>
+		  <signal name="activate" handler="on_aide_activate" last_modification_time="Sat, 24 Dec 2005 09:55:23 GMT"/>
+
+		  <child internal-child="image">
+		    <widget class="GtkImage" id="image206">
+		      <property name="visible">True</property>
+		      <property name="stock">gtk-help</property>
+		      <property name="icon_size">1</property>
+		      <property name="xalign">0.5</property>
+		      <property name="yalign">0.5</property>
+		      <property name="xpad">0</property>
+		      <property name="ypad">0</property>
+		    </widget>
+		  </child>
+
+		  <child>
+		    <widget class="GtkMenu" id="aide_menu">
+
+		      <child>
+			<widget class="GtkImageMenuItem" id="about">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">À Propos</property>
+			  <property name="use_underline">True</property>
+			  <signal name="activate" handler="on_about_activate" last_modification_time="Sat, 24 Dec 2005 09:55:46 GMT"/>
+
+			  <child internal-child="image">
+			    <widget class="GtkImage" id="image207">
+			      <property name="visible">True</property>
+			      <property name="stock">gnome-stock-about</property>
+			      <property name="icon_size">1</property>
+			      <property name="xalign">0.5</property>
+			      <property name="yalign">0.5</property>
+			      <property name="xpad">0</property>
+			      <property name="ypad">0</property>
+			    </widget>
+			  </child>
+			</widget>
+		      </child>
+		    </widget>
+		  </child>
+		</widget>
+	      </child>
+	    </widget>
+	  </child>
+	</widget>
+	<packing>
+	  <property name="placement">BONOBO_DOCK_TOP</property>
+	  <property name="band">0</property>
+	  <property name="position">0</property>
+	  <property name="offset">0</property>
+	  <property name="behavior">BONOBO_DOCK_ITEM_BEH_EXCLUSIVE|BONOBO_DOCK_ITEM_BEH_NEVER_VERTICAL|BONOBO_DOCK_ITEM_BEH_LOCKED</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GnomeDruid" id="druid1">
+	  <property name="border_width">4</property>
+	  <property name="visible">True</property>
+	  <property name="show_help">False</property>
+	  <signal name="cancel" handler="on_druid1_cancel" last_modification_time="Wed, 21 Dec 2005 16:59:45 GMT"/>
+
+	  <child>
+	    <widget class="GnomeDruidPageEdge" id="druidpagestart1">
+	      <property name="visible">True</property>
+	      <property name="position">GNOME_EDGE_START</property>
+	      <property name="title" translatable="yes">EasyCam</property>
+	      <property name="text" translatable="yes">Bienvenu(e) dans l'assistant d'installation 
+des drivers de Webcam sous Debian </property>
+	      <signal name="cancel" handler="on_druidpagestart1_cancel" last_modification_time="Wed, 21 Dec 2005 17:02:11 GMT"/>
+	      <signal name="next" handler="on_druidpagestart1_next" last_modification_time="Wed, 21 Dec 2005 17:42:49 GMT"/>
+	    </widget>
+	  </child>
+
+	  <child>
+	    <widget class="GnomeDruidPageStandard" id="druidpagestandard1">
+	      <property name="visible">True</property>
+	      <property name="title" translatable="yes"></property>
+	      <signal name="cancel" handler="on_druidpagestandard1_cancel" last_modification_time="Wed, 21 Dec 2005 17:51:06 GMT"/>
+	      <signal name="next" handler="on_druidpagestandard1_next" last_modification_time="Wed, 21 Dec 2005 19:36:09 GMT"/>
+
+	      <child internal-child="vbox">
+		<widget class="GtkVBox" id="druid-vbox1">
+		  <property name="border_width">16</property>
+		  <property name="visible">True</property>
+		  <property name="homogeneous">False</property>
+		  <property name="spacing">6</property>
+
+		  <child>
+		    <widget class="GtkVBox" id="vbox2">
+		      <property name="visible">True</property>
+		      <property name="homogeneous">False</property>
+		      <property name="spacing">0</property>
+
+		      <child>
+			<widget class="GtkLabel" id="label1">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Veuillez choisir votre webcam parmis la liste ci-dessous </property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0.5</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="padding">0</property>
+			  <property name="expand">False</property>
+			  <property name="fill">False</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkFixed" id="fixed1">
+			  <property name="visible">True</property>
+
+			  <child>
+			    <widget class="GtkComboBoxEntry" id="comboboxentry1">
+			      <property name="width_request">319</property>
+			      <property name="height_request">24</property>
+			      <property name="visible">True</property>
+			      <property name="items" translatable="yes"></property>
+			      <property name="add_tearoffs">False</property>
+			      <property name="has_frame">True</property>
+			      <property name="focus_on_click">True</property>
+			    </widget>
+			    <packing>
+			      <property name="x">80</property>
+			      <property name="y">40</property>
+			    </packing>
+			  </child>
+			</widget>
+			<packing>
+			  <property name="padding">0</property>
+			  <property name="expand">True</property>
+			  <property name="fill">True</property>
+			</packing>
+		      </child>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">True</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+		</widget>
+	      </child>
+	    </widget>
+	  </child>
+
+	  <child>
+	    <widget class="GnomeDruidPageStandard" id="druidpagestandard2">
+	      <property name="visible">True</property>
+	      <property name="title" translatable="yes"></property>
+	      <signal name="cancel" handler="on_druidpagestandard2_cancel" last_modification_time="Wed, 21 Dec 2005 17:51:25 GMT"/>
+	      <signal name="prepare" handler="on_druidpagestandard2_prepare" last_modification_time="Sun, 25 Dec 2005 16:09:39 GMT"/>
+	      <signal name="show" handler="on_druidpagestandard2_show" last_modification_time="Sun, 25 Dec 2005 16:24:40 GMT"/>
+
+	      <child internal-child="vbox">
+		<widget class="GtkVBox" id="druid-vbox2">
+		  <property name="border_width">16</property>
+		  <property name="visible">True</property>
+		  <property name="homogeneous">False</property>
+		  <property name="spacing">6</property>
+
+		  <child>
+		    <widget class="GtkVBox" id="vbox3">
+		      <property name="visible">True</property>
+		      <property name="homogeneous">False</property>
+		      <property name="spacing">0</property>
+
+		      <child>
+			<widget class="GtkLabel" id="label2">
+			  <property name="visible">True</property>
+			  <property name="label" translatable="yes">Installation du drivers</property>
+			  <property name="use_underline">False</property>
+			  <property name="use_markup">False</property>
+			  <property name="justify">GTK_JUSTIFY_LEFT</property>
+			  <property name="wrap">False</property>
+			  <property name="selectable">False</property>
+			  <property name="xalign">0.5</property>
+			  <property name="yalign">0.5</property>
+			  <property name="xpad">0</property>
+			  <property name="ypad">0</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <property name="width_chars">-1</property>
+			  <property name="single_line_mode">False</property>
+			  <property name="angle">0</property>
+			</widget>
+			<packing>
+			  <property name="padding">0</property>
+			  <property name="expand">False</property>
+			  <property name="fill">False</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkProgressBar" id="progressbar1">
+			  <property name="visible">True</property>
+			  <property name="orientation">GTK_PROGRESS_LEFT_TO_RIGHT</property>
+			  <property name="fraction">0</property>
+			  <property name="pulse_step">0.10000000149</property>
+			  <property name="text" translatable="yes">Installation .....</property>
+			  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+			  <signal name="show" handler="on_progressbar1_show" last_modification_time="Sun, 25 Dec 2005 16:29:39 GMT"/>
+			</widget>
+			<packing>
+			  <property name="padding">0</property>
+			  <property name="expand">False</property>
+			  <property name="fill">False</property>
+			</packing>
+		      </child>
+
+		      <child>
+			<widget class="GtkFixed" id="fixed4">
+			  <property name="visible">True</property>
+
+			  <child>
+			    <widget class="GtkButton" id="button4">
+			      <property name="width_request">164</property>
+			      <property name="height_request">27</property>
+			      <property name="visible">True</property>
+			      <property name="can_focus">True</property>
+			      <property name="relief">GTK_RELIEF_NORMAL</property>
+			      <property name="focus_on_click">True</property>
+			      <signal name="clicked" handler="on_go_clicked" last_modification_time="Mon, 26 Dec 2005 19:14:16 GMT"/>
+
+			      <child>
+				<widget class="GtkAlignment" id="alignment1">
+				  <property name="visible">True</property>
+				  <property name="xalign">0.5</property>
+				  <property name="yalign">0.5</property>
+				  <property name="xscale">0</property>
+				  <property name="yscale">0</property>
+				  <property name="top_padding">0</property>
+				  <property name="bottom_padding">0</property>
+				  <property name="left_padding">0</property>
+				  <property name="right_padding">0</property>
+
+				  <child>
+				    <widget class="GtkHBox" id="hbox2">
+				      <property name="visible">True</property>
+				      <property name="homogeneous">False</property>
+				      <property name="spacing">2</property>
+
+				      <child>
+					<widget class="GtkImage" id="image208">
+					  <property name="visible">True</property>
+					  <property name="stock">gtk-apply</property>
+					  <property name="icon_size">4</property>
+					  <property name="xalign">0.5</property>
+					  <property name="yalign">0.5</property>
+					  <property name="xpad">0</property>
+					  <property name="ypad">0</property>
+					</widget>
+					<packing>
+					  <property name="padding">0</property>
+					  <property name="expand">False</property>
+					  <property name="fill">False</property>
+					</packing>
+				      </child>
+
+				      <child>
+					<widget class="GtkLabel" id="label7">
+					  <property name="visible">True</property>
+					  <property name="label" translatable="yes">Lancer l'installation</property>
+					  <property name="use_underline">True</property>
+					  <property name="use_markup">False</property>
+					  <property name="justify">GTK_JUSTIFY_LEFT</property>
+					  <property name="wrap">False</property>
+					  <property name="selectable">False</property>
+					  <property name="xalign">0.5</property>
+					  <property name="yalign">0.5</property>
+					  <property name="xpad">0</property>
+					  <property name="ypad">0</property>
+					  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+					  <property name="width_chars">-1</property>
+					  <property name="single_line_mode">False</property>
+					  <property name="angle">0</property>
+					</widget>
+					<packing>
+					  <property name="padding">0</property>
+					  <property name="expand">False</property>
+					  <property name="fill">False</property>
+					</packing>
+				      </child>
+				    </widget>
+				  </child>
+				</widget>
+			      </child>
+			    </widget>
+			    <packing>
+			      <property name="x">144</property>
+			      <property name="y">56</property>
+			    </packing>
+			  </child>
+			</widget>
+			<packing>
+			  <property name="padding">0</property>
+			  <property name="expand">True</property>
+			  <property name="fill">True</property>
+			</packing>
+		      </child>
+		    </widget>
+		    <packing>
+		      <property name="padding">0</property>
+		      <property name="expand">True</property>
+		      <property name="fill">True</property>
+		    </packing>
+		  </child>
+		</widget>
+	      </child>
+	    </widget>
+	  </child>
+
+	  <child>
+	    <widget class="GnomeDruidPageEdge" id="druidpagefinish1">
+	      <property name="visible">True</property>
+	      <property name="position">GNOME_EDGE_FINISH</property>
+	      <property name="title" translatable="yes">EasyCam</property>
+	      <property name="text" translatable="yes">L'installation est terminé ! 
+Pour tester votre webcam : Outils -&gt; Webcam</property>
+	      <signal name="finish" handler="on_druidpagefinish1_finish" last_modification_time="Mon, 26 Dec 2005 19:17:32 GMT"/>
+	    </widget>
+	  </child>
+	</widget>
+      </child>
+    </widget>
+    <packing>
+      <property name="padding">0</property>
+      <property name="expand">True</property>
+      <property name="fill">True</property>
+    </packing>
+  </child>
+
+  <child internal-child="appbar">
+    <widget class="GnomeAppBar" id="appbar1">
+      <property name="visible">True</property>
+      <property name="has_progress">True</property>
+      <property name="has_status">True</property>
+    </widget>
+    <packing>
+      <property name="padding">0</property>
+      <property name="expand">True</property>
+      <property name="fill">True</property>
+    </packing>
+  </child>
+</widget>
+
+<widget class="GtkAboutDialog" id="about">
+  <property name="destroy_with_parent">False</property>
+  <property name="name" translatable="yes">Easycam</property>
+  <property name="copyright" translatable="yes">Copyright (c) 2005 L'équipe EasyCam
+</property>
+  <property name="comments" translatable="yes">Installateur de Drivers pour Webcam 
+sous Debian (et dérivé)</property>
+  <property name="license" translatable="yes">General Public Licence (GPL)</property>
+  <property name="wrap_license">False</property>
+  <property name="authors">Écrit par Anbreizh</property>
+  <property name="artists">Interface par Anbreizh</property>
+  <property name="translator_credits" translatable="yes" comments="TRANSLATORS: Replace this string with your names, one name per line.">Allemand : Michael Strecke</property>
+  <property name="logo">webcam_bois3.png</property>
+</widget>
+
+<widget class="GtkWindow" id="properties">
+  <property name="width_request">342</property>
+  <property name="height_request">0</property>
+  <property name="title" translatable="yes">Propriétés</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_NONE</property>
+  <property name="modal">False</property>
+  <property name="resizable">False</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="icon">video-preview.png</property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_NORTH_WEST</property>
+  <property name="focus_on_map">True</property>
+  <property name="urgency_hint">False</property>
+
+  <child>
+    <widget class="GtkVBox" id="vbox4">
+      <property name="visible">True</property>
+      <property name="homogeneous">False</property>
+      <property name="spacing">0</property>
+
+      <child>
+	<widget class="GtkHBox" id="hbox1">
+	  <property name="visible">True</property>
+	  <property name="homogeneous">False</property>
+	  <property name="spacing">0</property>
+
+	  <child>
+	    <widget class="GtkFixed" id="fixed2">
+	      <property name="width_request">376</property>
+	      <property name="height_request">221</property>
+	      <property name="visible">True</property>
+
+	      <child>
+		<widget class="GtkHSeparator" id="hseparator1">
+		  <property name="width_request">384</property>
+		  <property name="height_request">16</property>
+		  <property name="visible">True</property>
+		</widget>
+		<packing>
+		  <property name="x">-8</property>
+		  <property name="y">32</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkLabel" id="label4">
+		  <property name="width_request">90</property>
+		  <property name="height_request">25</property>
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Propriétés</property>
+		  <property name="use_underline">False</property>
+		  <property name="use_markup">False</property>
+		  <property name="justify">GTK_JUSTIFY_LEFT</property>
+		  <property name="wrap">False</property>
+		  <property name="selectable">False</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		  <property name="width_chars">-1</property>
+		  <property name="single_line_mode">False</property>
+		  <property name="angle">0</property>
+		</widget>
+		<packing>
+		  <property name="x">128</property>
+		  <property name="y">8</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkButton" id="button2">
+		  <property name="width_request">90</property>
+		  <property name="height_request">27</property>
+		  <property name="visible">True</property>
+		  <property name="can_focus">True</property>
+		  <property name="label">gtk-close</property>
+		  <property name="use_stock">True</property>
+		  <property name="relief">GTK_RELIEF_NORMAL</property>
+		  <property name="focus_on_click">True</property>
+		  <signal name="clicked" handler="on_propertieclose_clicked" last_modification_time="Sun, 25 Dec 2005 12:04:28 GMT"/>
+		</widget>
+		<packing>
+		  <property name="x">192</property>
+		  <property name="y">176</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkLabel" id="label5">
+		  <property name="width_request">165</property>
+		  <property name="height_request">17</property>
+		  <property name="visible">True</property>
+		  <property name="label" translatable="yes">Choix de la distribution : </property>
+		  <property name="use_underline">False</property>
+		  <property name="use_markup">False</property>
+		  <property name="justify">GTK_JUSTIFY_LEFT</property>
+		  <property name="wrap">False</property>
+		  <property name="selectable">False</property>
+		  <property name="xalign">0.5</property>
+		  <property name="yalign">0.5</property>
+		  <property name="xpad">0</property>
+		  <property name="ypad">0</property>
+		  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+		  <property name="width_chars">-1</property>
+		  <property name="single_line_mode">False</property>
+		  <property name="angle">0</property>
+		</widget>
+		<packing>
+		  <property name="x">88</property>
+		  <property name="y">72</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkRadioButton" id="radiobutton2">
+		  <property name="width_request">80</property>
+		  <property name="height_request">24</property>
+		  <property name="visible">True</property>
+		  <property name="can_focus">True</property>
+		  <property name="label" translatable="yes">Ubuntu</property>
+		  <property name="use_underline">True</property>
+		  <property name="relief">GTK_RELIEF_NORMAL</property>
+		  <property name="focus_on_click">True</property>
+		  <property name="active">False</property>
+		  <property name="inconsistent">False</property>
+		  <property name="draw_indicator">True</property>
+		</widget>
+		<packing>
+		  <property name="x">208</property>
+		  <property name="y">112</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkRadioButton" id="radiobutton1">
+		  <property name="width_request">80</property>
+		  <property name="height_request">24</property>
+		  <property name="visible">True</property>
+		  <property name="can_focus">True</property>
+		  <property name="label" translatable="yes">Debian</property>
+		  <property name="use_underline">True</property>
+		  <property name="relief">GTK_RELIEF_NORMAL</property>
+		  <property name="focus_on_click">True</property>
+		  <property name="active">False</property>
+		  <property name="inconsistent">False</property>
+		  <property name="draw_indicator">True</property>
+		  <property name="group">radiobutton2</property>
+		</widget>
+		<packing>
+		  <property name="x">64</property>
+		  <property name="y">112</property>
+		</packing>
+	      </child>
+
+	      <child>
+		<widget class="GtkButton" id="button1">
+		  <property name="width_request">90</property>
+		  <property name="height_request">27</property>
+		  <property name="visible">True</property>
+		  <property name="can_focus">True</property>
+		  <property name="label">gtk-apply</property>
+		  <property name="use_stock">True</property>
+		  <property name="relief">GTK_RELIEF_NORMAL</property>
+		  <property name="focus_on_click">True</property>
+		</widget>
+		<packing>
+		  <property name="x">64</property>
+		  <property name="y">176</property>
+		</packing>
+	      </child>
+	    </widget>
+	    <packing>
+	      <property name="padding">0</property>
+	      <property name="expand">True</property>
+	      <property name="fill">True</property>
+	    </packing>
+	  </child>
+	</widget>
+	<packing>
+	  <property name="padding">0</property>
+	  <property name="expand">True</property>
+	  <property name="fill">True</property>
+	</packing>
+      </child>
+    </widget>
+  </child>
+</widget>
+
+<widget class="GtkWindow" id="errorwindows">
+  <property name="title" translatable="yes">Log</property>
+  <property name="type">GTK_WINDOW_TOPLEVEL</property>
+  <property name="window_position">GTK_WIN_POS_NONE</property>
+  <property name="modal">False</property>
+  <property name="resizable">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="icon">video-preview.png</property>
+  <property name="decorated">True</property>
+  <property name="skip_taskbar_hint">False</property>
+  <property name="skip_pager_hint">False</property>
+  <property name="type_hint">GDK_WINDOW_TYPE_HINT_NORMAL</property>
+  <property name="gravity">GDK_GRAVITY_NORTH_WEST</property>
+  <property name="focus_on_map">True</property>
+  <property name="urgency_hint">False</property>
+
+  <child>
+    <widget class="GtkFixed" id="fixed3">
+      <property name="visible">True</property>
+
+      <child>
+	<widget class="GtkScrolledWindow" id="scrolledwindow1">
+	  <property name="width_request">240</property>
+	  <property name="height_request">80</property>
+	  <property name="visible">True</property>
+	  <property name="can_focus">True</property>
+	  <property name="hscrollbar_policy">GTK_POLICY_ALWAYS</property>
+	  <property name="vscrollbar_policy">GTK_POLICY_ALWAYS</property>
+	  <property name="shadow_type">GTK_SHADOW_NONE</property>
+	  <property name="window_placement">GTK_CORNER_TOP_LEFT</property>
+
+	  <child>
+	    <widget class="GtkTextView" id="textview1">
+	      <property name="visible">True</property>
+	      <property name="can_focus">True</property>
+	      <property name="editable">True</property>
+	      <property name="overwrite">False</property>
+	      <property name="accepts_tab">True</property>
+	      <property name="justification">GTK_JUSTIFY_LEFT</property>
+	      <property name="wrap_mode">GTK_WRAP_NONE</property>
+	      <property name="cursor_visible">True</property>
+	      <property name="pixels_above_lines">0</property>
+	      <property name="pixels_below_lines">0</property>
+	      <property name="pixels_inside_wrap">0</property>
+	      <property name="left_margin">0</property>
+	      <property name="right_margin">0</property>
+	      <property name="indent">0</property>
+	      <property name="text" translatable="yes"></property>
+	    </widget>
+	  </child>
+	</widget>
+	<packing>
+	  <property name="x">72</property>
+	  <property name="y">160</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GtkLabel" id="label6">
+	  <property name="width_request">392</property>
+	  <property name="height_request">128</property>
+	  <property name="visible">True</property>
+	  <property name="label" translatable="yes">L'installation a échoué ! Vous pouvais consulter le log 
+ci-dessous où les messages d'erreur ont étais enrengistré. 
+Pour recevoir de l'aide, veuillez vous adresser
+a une des adresses suivantes : 
+
+E-Mail : jbtheou@gmail.com
+Forum : http://forum.ubuntu-fr.org/viewtopic.php?id=16670
+
+Merci </property>
+	  <property name="use_underline">False</property>
+	  <property name="use_markup">False</property>
+	  <property name="justify">GTK_JUSTIFY_LEFT</property>
+	  <property name="wrap">False</property>
+	  <property name="selectable">False</property>
+	  <property name="xalign">0.5</property>
+	  <property name="yalign">0.5</property>
+	  <property name="xpad">0</property>
+	  <property name="ypad">0</property>
+	  <property name="ellipsize">PANGO_ELLIPSIZE_NONE</property>
+	  <property name="width_chars">-1</property>
+	  <property name="single_line_mode">False</property>
+	  <property name="angle">0</property>
+	</widget>
+	<packing>
+	  <property name="x">8</property>
+	  <property name="y">16</property>
+	</packing>
+      </child>
+
+      <child>
+	<widget class="GtkButton" id="close2">
+	  <property name="width_request">82</property>
+	  <property name="height_request">27</property>
+	  <property name="visible">True</property>
+	  <property name="can_focus">True</property>
+	  <property name="label">gtk-close</property>
+	  <property name="use_stock">True</property>
+	  <property name="relief">GTK_RELIEF_NORMAL</property>
+	  <property name="focus_on_click">True</property>
+	  <signal name="clicked" handler="on_close2_clicked" last_modification_time="Mon, 26 Dec 2005 18:09:27 GMT"/>
+	</widget>
+	<packing>
+	  <property name="x">152</property>
+	  <property name="y">256</property>
+	</packing>
+      </child>
+    </widget>
+  </child>
+</widget>
+
+</glade-interface>

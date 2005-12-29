@@ -1,0 +1,12 @@
+# change log
+#
+# 2005-12-27 [mistr] removed some IDs from previsous version,
+#                     only those from qc-driver.c are now in this table
+#
+homepage http://qce-ga.sourceforge.net
+needs 3.0
+
+ID 046d:08f0 Logitech, Inc., QuickCam Messenger 
+ID 046d:08f5 Logitech, Inc., QuickCam Communicate 
+ID 046d:08f6 Logitech, Inc., QuickCam Messenger (new)
+

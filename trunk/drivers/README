@@ -1,0 +1,15 @@
+If you run easycam.py, this subdirectory must contain the driver source code for the various web cams.
+
+The directory structure must look like this:
+
+drivers --+-- ov511
+          |
+          +-- spca
+          |
+          +-- toys
+          |
+         ...
+
+Developing the web cam drivers is NOT part of this project. In order to avoid cluttering THIS repository with ever changing code from the web cam driver projects their files have been omitted here.
+Either extract them from the current easycam.deb file or use an old version of those drivers stored a .gz file in the file section.
+ 

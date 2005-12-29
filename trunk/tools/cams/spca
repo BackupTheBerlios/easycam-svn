@@ -1,0 +1,157 @@
+# change log
+#
+# 2005-12-27: [mistr] web cams added from source file: spca5xx.c
+#
+#
+homepage http://mxhaard.free.fr
+source http://mxhaard.free.fr/spca50x/Download/spca5xx-20051212.tar.gz
+needs 3.0
+
+ID 0733:0430 Intel PC Camera Pro 
+ID 0733:0401 Intel Create and Share 
+ID 99FA:8988 Grandtec V.cap 
+ID 0733:0402 ViewQuest M318B 
+ID 0733:0110 ViewQuest VQ110 
+ID 040A:0002 Kodak DVC-325 
+ID 055f:c420 Mustek gSmart Mini 2 
+ID 055f:c520 Mustek gSmart Mini 3 
+ID 041E:400A Creative PC-CAM 300 
+ID 084D:0003 D-Link DSC-350 
+ID 041E:400B Creative PC-CAM 600 
+ID 8086:0630 Intel Pocket PC Camera 
+ID 8086:0110 Intel Easy PC Camera 
+ID 0506:00df 3Com HomeConnect Lite 
+ID 040a:0300 Kodak EZ200 
+ID 04fc:504b Maxell MaxPocket LE 1.3 
+ID 08ca:2008 Aiptek Mini PenCam 2 M 
+ID 08ca:0104 Aiptek PocketDVII 1.3 
+ID 08ca:2018 Aiptek Pencam SD 2M 
+ID 04fc:504a Aiptek Mini PenCam 1.3 
+ID 055f:c530 Mustek Gsmart LCD 3 
+ID 055f:c650 Mustek MDC5500Z 
+ID 052b:1513 Megapix V4 
+ID 08ca:0103 Aiptek PocketDV 
+ID 0af9:0010 Hama USB Sightcam 100 
+ID 1776:501c Arowana 300K CMOS Camera 
+ID 08ca:0106 Aiptek Pocket DV3100+ 
+ID 08ca:2010 Aiptek PocketCam 3M 
+ID 0458:7004 Genius VideoCAM Express V2 
+ID 04fc:0561 Flexcam 100
+ID 055f:c430 Mustek Gsmart LCD 2 
+ID 04fc:ffff Pure DigitalDakota 
+ID abcd:cdee Petcam 
+ID 04a5:3008 Benq DC 1500 
+ID 046d:0960 Logitech Inc. ClickSmart 420 
+ID 046d:0901 Logitech Inc. ClickSmart 510 
+ID 04a5:3003 Benq DC 1300 
+ID 0af9:0011 Hama USB Sightcam 100 
+ID 055f:c440 Mustek DV 3000 
+ID 041e:4013 Creative Pccam750 
+ID 060b:a001 Maxell Compact Pc PM3 
+ID 04a5:300a Benq DC3410 
+ID 04a5:300c Benq DC1016 
+ID 0461:0815 Micro Innovation IC200 
+ID 046d:0890 Logitech QuickCam traveler 
+ID 10fd:7e50 FlyCam Usb 100 
+ID 06e1:a190 ADS Instant VCD 
+ID 055f:c220 Gsmart Mini 
+ID 0733:2211 Jenoptik jdc 21 LCD 
+ID 046d:0900 Logitech Inc. ClickSmart 310 
+ID 055f:c360 Mustek DV4000 Mpeg4  
+ID 08ca:2024 Aiptek DV3500 Mpeg4  
+ID 046d:0905 Logitech ClickSmart820  
+ID 05da:1018 Digital Dream Enigma 1.3 
+ID 0c45:6025 Xcam Shanga 
+ID 0733:1311 Digital Dream Epsilon 1.3 
+ID 041e:401d Creative Webcam NX ULTRA 
+ID 08ca:2016 Aiptek PocketCam 2 Mega 
+ID 0734:043b 3DeMon USB Capture aka 
+ID 041E:4018 Creative Webcam Vista (PD1100) 
+ID 0546:3273 Polaroid PDC2030 
+ID 041e:401f Creative Webcam Notebook PD1171 
+ID 041e:4017 Creative Webcam Mobile PD1090 
+ID 046d:08a2 Labtec Webcam Pro 
+ID 055f:d003 Mustek WCam300A 
+ID 0458:7007 Genius VideoCam V2 
+ID 0458:700c Genius VideoCam V3 
+ID 0458:700f Genius VideoCam Web V2 
+ID 041e:401e Creative Nx Pro
+ID 0c45:6029 spcaCam@150 
+ID 0c45:6009 spcaCam@120 
+ID 0c45:600d spcaCam@120 
+ID 04fc:5330 Digitrex 2110 
+ID 055f:c540 Gsmart D30 
+ID 0ac8:301b Asam Vimicro
+ID 041e:403a Creative Nx Pro 2 
+ID 055f:c211 Kowa Bs888e Microcamera 
+ID 0ac8:0302 Z-star Vimicro zc0302 
+ID 0572:0041 Creative Notebook cx11646 
+ID 08ca:2022 Aiptek Slim 3200 
+ID 046d:0921 Labtec Webcam 
+ID 046d:0920 Logitech, Inc. QuickCam Express
+ID 0923:010f ICM532 cams 
+ID 055f:c200 Mustek Gsmart 300 
+ID 0733:2221 Mercury Digital Pro 3.1p 
+ID 041e:4036 Creative Live !
+ID 055f:c005 Mustek Wcam300A 
+ID 041E:403b Creative Webcam Vista (VF0010) 
+ID 0545:8333 Veo Stingray 
+ID 0545:808b Veo Stingray 
+ID 10fd:8050 Typhoon Webshot II USB 300k 
+ID 0546:3155 Polaroid PDC3070 
+ID 046d:0928 Logitech QC Express Etch2 
+ID 046d:092a Logitech QC for Notebook 
+ID 046d:08a0 Logitech QC IM 
+ID 0461:0a00 MicroInnovation WebCam320 
+ID 08ca:2028 Aiptek PocketCam4M 
+ID 08ca:2042 Aiptek PocketDV5100 
+ID 08ca:2060 Aiptek PocketDV5300 
+ID 04fc:5360 Sunplus Generic 
+ID 046d:08a1 Logitech QC IM 0x08A1 +sound
+ID 046d:08a3 Logitech QC Chat 
+ID 046d:08b9 Logitech QC IM ??? 
+ID 046d:0929 Labtec Webcam Elch2
+ID 10fd:0128 Typhoon Webshot II USB 300k 0x0128 
+ID 102c:6151 Qcam Sangha CIF 
+ID 102c:6251 Qcam xxxxxx VGA 
+ID 04fc:7333 PalmPixDC85
+ID 06be:0800 Optimedia
+ID 2899:012c Toptro Industrial
+ID 06bd:0404 Agfa CL20
+ID 046d:092c Logitech QC chat Elch2
+ID 0c45:607c Sonix sn9c102p Hv7131R
+ID 0733:3261 Concord 3045 spca536a
+ID 0733:1314 Mercury 2.1MEG Deluxe Classic Cam
+ID 041e:401c Creative NX 
+ID 041e:4034 Creative Instant P0620 
+ID 041e:4035 Creative Instant P0620D 
+ID 046d:08ae Logitech QuickCam for Notebooks 
+ID 055f:d004 Mustek WCam300 AN 
+ID 046d:092b Labtec Webcam Plus
+ID 0c45:602e Genius VideoCam Messenger
+ID 0c45:602c Generic Sonix OV7630
+ID 093A:050F Mars-Semi Pc-Camera 
+ID 0458:7006 Genius Dsc 1.3 Smart 
+ID 055f:c630 Mustek MDC4000 
+ID 046d:08ad Logitech QCCommunicate STX
+ID 0c45:602d LIC-200 LG
+ID 0c45:6005 Sweex Tas5110 
+ID 0c45:613c Sonix Pccam168 
+ID 0c45:6130 Sonix Pccam 
+ID 0c45:60c0 Sangha Sn535 
+ID 0c45:60fc LG-LIC300 
+ID 0546:3191 Polaroid Ion 80 
+ID 0ac8:305b Z-star Vimicro zc0305b 
+ID 0c45:6028 Sonix Btc Pc380
+ID 046d:08a9 Logitech Notebook Deluxe
+ID 046d:08aa Labtec Webcam  Notebook 
+ID 04f1:1001 JVC GC A50
+ID 0497:c001 Smile International
+ID 041e:4012 PC-Cam350
+ID 0ac8:303b Vimicro 0x303b
+ID 093a:2468 PAC207
+ID 093a:2471 PAC207 Genius VideoCam ge111
+ID 093a:2460 PAC207 Qtec Webcam 100
+ID 0733:3281 Cyberpix S550V
+ID 093a:2470 Genius GF112
+

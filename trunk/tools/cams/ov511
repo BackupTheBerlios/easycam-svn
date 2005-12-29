@@ -1,0 +1,13 @@
+# Change log
+#
+# 2005-12-27 [mistr] webcams added: ov511.h
+#
+#
+homepage http://ovcam.org/ov511/
+needs 3.0
+
+ID 05a9:0511 OmniVision Technologies, Inc. OV511 WebCam
+ID 05a9:a511 OmniVision Technologies, Inc. OV511+ WebCam
+ID 05a9:0518 OmniVision Technologies, Inc. OV518 WebCam
+ID 05a9:a518 OmniVision Technologies, Inc. OV518+ WebCam
+ID 0813:0002 Mattel Inc. Me2Cam WebCam

@@ -1,0 +1,149 @@
+# English translation of easycam.
+# Copyright (C) 2005 THE easycam'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the easycam package.
+# Michael Strecke <mstrecke@users.berlios.de>, 2005.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: easycam 1.99\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-28 15:17+0100\n"
+"PO-Revision-Date: 2005-12-29 02:08+0100\n"
+"Last-Translator: Michael Strecke <mstrecke@users.berlios.de>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../src/interface.c:32
+msgid "Nouvelle installation"
+msgstr "Neue Installation"
+
+#: ../src/interface.c:40
+msgid "Quitter"
+msgstr "Ende"
+
+#: ../src/interface.c:52
+msgid "Préferences"
+msgstr "Voreinstellungen"
+
+#: ../src/interface.c:60
+msgid "Webcam"
+msgstr "Webcam"
+
+#: ../src/interface.c:72
+msgid "À Propos"
+msgstr "Über"
+
+#: ../src/interface.c:84
+msgid "_Fichier"
+msgstr "Datei"
+
+#: ../src/interface.c:92
+msgid "Aide"
+msgstr "Hilfe"
+
+#: ../src/interface.c:129 ../src/interface.c:332
+msgid "Easycam"
+msgstr "Easycam"
+
+#: ../src/interface.c:154 ../src/interface.c:234
+msgid "EasyCam"
+msgstr "EasyCam"
+
+#: ../src/interface.c:155
+msgid ""
+"Bienvenu(e) dans l'assistant d'installation \n"
+"des drivers de Webcam sous Debian "
+msgstr ""
+"Willkommen beim Installationsassistenten\n"
+"für Webcamtreiber unter Debian"
+
+#: ../src/interface.c:170
+msgid "Veuillez choisir votre webcam parmis la liste ci-dessous "
+msgstr "Bitte wählen Sie Ihre Webcam aus der folgenden Liste aus:"
+
+#: ../src/interface.c:196
+msgid "Installation du drivers"
+msgstr "Installation des Treibers"
+
+#: ../src/interface.c:203
+msgid "Installation ....."
+msgstr "Installation ....."
+
+#: ../src/interface.c:226
+msgid "Lancer l'installation"
+msgstr "Installation starten"
+
+#: ../src/interface.c:235
+msgid ""
+"L'installation est terminé ! \n"
+"Pour tester votre webcam : Outils -> Webcam"
+msgstr ""
+"Installation beendet!\n"
+"Testen Sie Ihre Webcam mit: Extras -> Webcam"
+
+#: ../src/interface.c:333
+msgid "Copyright (c) 2005 L'équipe EasyCam\n"
+msgstr "Copyright (c) 2005 Das EasyCam Team\n"
+
+#: ../src/interface.c:334
+msgid ""
+"Installateur de Drivers pour Webcam \n"
+"sous Debian (et dérivé)"
+msgstr ""
+"Installationsprogram für Webcam-Treiber\n"
+"unter Debian (und auf Debian basierenden Distros)"
+
+#: ../src/interface.c:335
+msgid "General Public Licence (GPL)"
+msgstr "General Public Licence (GPL)"
+
+#: ../src/interface.c:367 ../src/interface.c:394
+msgid "Propriétés"
+msgstr "Eigenschaften"
+
+#: ../src/interface.c:404
+msgid "Choix de la distribution : "
+msgstr "Welche Distribution verwenden Sie?"
+
+#: ../src/interface.c:409
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../src/interface.c:421
+msgid "Debian"
+msgstr "Debian"
+
+#: ../src/interface.c:460
+msgid "Log"
+msgstr "Protokoll"
+
+#: ../src/interface.c:481
+msgid ""
+"L'installation a échoué ! Vous pouvais consulter le log \n"
+"ci-dessous où les messages d'erreur ont étais enrengistré. \n"
+"Pour recevoir de l'aide, veuillez vous adresser\n"
+"a une des adresses suivantes : \n"
+"\n"
+"E-Mail : jbtheou@gmail.com\n"
+"Forum : http://forum.ubuntu-fr.org/viewtopic.php?id=16670\n"
+"\n"
+"Merci "
+msgstr ""
+"Die Installation ist fehlgeschlagen. Prüfen Sie das unten\n"
+"stehende Protokoll auf Fehlermeldungen.\n"
+"Wenn Sie Hilfe benötigen, erreichen Sie uns:\n"
+"\n"
+"per E-Mail : jbtheou@gmail.com\n"
+"im Forum : http://forum.ubuntu-fr.org/viewtopic.php?id=16670\n"
+"\n"
+"Vielen Dank "
+
+#: ../src/support.c:60 ../src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "pixmap Datei %s nicht gefunden"
+
