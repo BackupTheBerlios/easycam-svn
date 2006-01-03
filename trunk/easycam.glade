@@ -8,7 +8,6 @@
 <widget class="GnomeApp" id="EasyCamwindows">
   <property name="width_request">519</property>
   <property name="height_request">318</property>
-  <property name="visible">True</property>
   <property name="title" translatable="yes">Easycam</property>
   <property name="type">GTK_WINDOW_TOPLEVEL</property>
   <property name="window_position">GTK_WIN_POS_NONE</property>
@@ -244,7 +243,6 @@
 
 	  <child>
 	    <widget class="GnomeDruidPageEdge" id="druidpagestart1">
-	      <property name="visible">True</property>
 	      <property name="position">GNOME_EDGE_START</property>
 	      <property name="title" translatable="yes">EasyCam</property>
 	      <property name="text" translatable="yes">Bienvenu(e) dans l'assistant d'installation 

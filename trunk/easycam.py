@@ -1,9 +1,9 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Written by Anbreizh
 #
-#
     #################################
-    #         EASYCAM        #
+    #         EASYCAM               #
     #################################
 #
 #
@@ -25,6 +25,7 @@ import gettext
 import gnome.ui
 import gtk, gtk.glade
 import time
+import xml
 import easycamconfig
 
 APPNAME="Easy Cam"
@@ -32,11 +33,20 @@ APPVERSION="1.99"
 
 gtk.glade.bindtextdomain("easycam","./locale")
 gtk.glade.textdomain("easycam")
+gettext.bindtextdomain("easycam","./locale")
+gettext.textdomain("easycam")
 _ = gettext.gettext
 
-
-
+def simpleErrorMessageDialog(message):
+   d = gtk.MessageDialog(None,gtk.DIALOG_MODAL,gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE,message)
+   d.run()
+   d.destroy()
+     
 class MakeGui:
+    ##
+    # storage for selected USB id
+    installid = ""
+
     def __init__( self ):
         gnome.init( APPNAME, APPVERSION )
         self.gui = gtk.glade.XML( "easycam.glade" )
@@ -84,37 +94,37 @@ class MakeGui:
         return True
 
     def on_druidpagestart1_next( self, widget, gui ):
-        os.system( "lsusb > /tmp/lsusb" )
+        global cf
         combobox = self.gui.get_widget( "comboboxentry1" )
-        f = open( "/tmp/lsusb", "r" )
+        cnt = 0
+	f = os.popen("lsusb","r")
         for line in f.readlines():
-            combobox.insert_text( 0, line )  
-        combobox.connect( 'changed', self.changed_cb )
-        combobox.set_active( 0 )
+            id = line[23:32]			# get USB ID
+            if cf.getDriverListByID(id):	# put id only in list, if we know how to handle it
+               combobox.insert_text( 0, line.lstrip() )
+               cnt += 1  
         f.close()
+        if cnt:
+           combobox.connect( 'changed', self.changed_cb )
+           combobox.set_active( 0 )
+        else:
+           simpleErrorMessageDialog( _( u"Aucune caméra trouvée ou caméra non compatible") )
+           gtk.main_quit()
 
     def changed_cb( self, combobox ):
         model = combobox.get_model()
         index = combobox.get_active()
-        a = model[index][0]
-        f = open( "/tmp/lsusb", "w" )        
-        f.write( a )
-        f.close()
-
+        self.installid = model[index][0][23:32]  # USB ID of selected device
     
     def on_close2_clicked ( self, gui ):
         self.gui.get_widget( "errorwindows" ).hide()
 
     def on_go_clicked ( self, gui ):
-        # global variable cf holds the config info
+        global cf	# holds the config info
         import install
-        f = open( "/tmp/lsusb", "r" )
-        a = f.readline()
-        b = a[23:32]
 
         identi = ""
-        info = cf.getDriverListByID(b)
-
+        info = cf.getDriverListByID(self.installid)
         if info:
             if len(info) == 1:
                 moreinfo = cf.getDriverInfo(info[0])
@@ -148,15 +158,20 @@ class MakeGui:
 if __name__ == "__main__":
     ui = MakeGui()
 
+    error = 0
     # Loading config from easycam.xml
     try:
         cf = easycamconfig.ConfigInfo()
     except IOError:
-        print "config file is missing"                # a french info window, please
-        sys.exit(1)
+        # config file is missing
+        simpleErrorMessageDialog( _( u"Le fichier de configuration n'a pas été détecter!\nReinstallez easycam"))
+        error = 1
     except xml.parsers.expat.ExpatError:
-        print "XML error in config file"              # a french info window, please
-        sys.exit(1)
+        # error in XML syntax
+        simpleErrorMessageDialog( _( u"Le fichier de configuration est défectueux.\nReinstallez easycam") )
+        error = 1
 
-    gtk.main()
+    if error == 0:
+        ui.gui.get_widget( "EasyCamwindows" ).show()
+        gtk.main()
     

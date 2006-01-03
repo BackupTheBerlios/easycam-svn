@@ -9,122 +9,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: easycam 1.99\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-28 15:17+0100\n"
-"PO-Revision-Date: 2005-12-29 02:08+0100\n"
+"POT-Creation-Date: 2006-01-03 01:11+0100\n"
+"PO-Revision-Date: 2006-01-03 01:13+0100\n"
 "Last-Translator: Michael Strecke <mstrecke@users.berlios.de>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
 
-#: ../src/interface.c:32
-msgid "Nouvelle installation"
-msgstr "Neue Installation"
-
-#: ../src/interface.c:40
-msgid "Quitter"
-msgstr "Ende"
-
-#: ../src/interface.c:52
-msgid "PrÈferences"
-msgstr "Voreinstellungen"
-
-#: ../src/interface.c:60
-msgid "Webcam"
-msgstr "Webcam"
-
-#: ../src/interface.c:72
-msgid "¿ Propos"
-msgstr "‹ber"
-
-#: ../src/interface.c:84
-msgid "_Fichier"
-msgstr "Datei"
-
-#: ../src/interface.c:92
+#: ../easycam.glade.h:1
 msgid "Aide"
 msgstr "Hilfe"
 
-#: ../src/interface.c:129 ../src/interface.c:332
-msgid "Easycam"
-msgstr "Easycam"
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../easycam.glade.h:3
+msgid "Allemand : Michael Strecke"
+msgstr "Deutsch : Michael Strecke"
 
-#: ../src/interface.c:154 ../src/interface.c:234
-msgid "EasyCam"
-msgstr "EasyCam"
-
-#: ../src/interface.c:155
+#: ../easycam.glade.h:4
 msgid ""
 "Bienvenu(e) dans l'assistant d'installation \n"
 "des drivers de Webcam sous Debian "
 msgstr ""
 "Willkommen beim Installationsassistenten\n"
-"f¸r Webcamtreiber unter Debian"
+"f√ºr Webcamtreiber unter Debian"
 
-#: ../src/interface.c:170
-msgid "Veuillez choisir votre webcam parmis la liste ci-dessous "
-msgstr "Bitte w‰hlen Sie Ihre Webcam aus der folgenden Liste aus:"
-
-#: ../src/interface.c:196
-msgid "Installation du drivers"
-msgstr "Installation des Treibers"
-
-#: ../src/interface.c:203
-msgid "Installation ....."
-msgstr "Installation ....."
-
-#: ../src/interface.c:226
-msgid "Lancer l'installation"
-msgstr "Installation starten"
-
-#: ../src/interface.c:235
-msgid ""
-"L'installation est terminÈ ! \n"
-"Pour tester votre webcam : Outils -> Webcam"
-msgstr ""
-"Installation beendet!\n"
-"Testen Sie Ihre Webcam mit: Extras -> Webcam"
-
-#: ../src/interface.c:333
-msgid "Copyright (c) 2005 L'Èquipe EasyCam\n"
-msgstr "Copyright (c) 2005 Das EasyCam Team\n"
-
-#: ../src/interface.c:334
-msgid ""
-"Installateur de Drivers pour Webcam \n"
-"sous Debian (et dÈrivÈ)"
-msgstr ""
-"Installationsprogram f¸r Webcam-Treiber\n"
-"unter Debian (und auf Debian basierenden Distros)"
-
-#: ../src/interface.c:335
-msgid "General Public Licence (GPL)"
-msgstr "General Public Licence (GPL)"
-
-#: ../src/interface.c:367 ../src/interface.c:394
-msgid "PropriÈtÈs"
-msgstr "Eigenschaften"
-
-#: ../src/interface.c:404
+#: ../easycam.glade.h:6
 msgid "Choix de la distribution : "
 msgstr "Welche Distribution verwenden Sie?"
 
-#: ../src/interface.c:409
-msgid "Ubuntu"
-msgstr "Ubuntu"
+#: ../easycam.glade.h:7
+msgid "Copyright (c) 2005 L'√©quipe EasyCam\n"
+msgstr "Copyright (c) 2005 Das EasyCam Team\n"
 
-#: ../src/interface.c:421
+#: ../easycam.glade.h:9
 msgid "Debian"
 msgstr "Debian"
 
-#: ../src/interface.c:460
-msgid "Log"
-msgstr "Protokoll"
+#: ../easycam.glade.h:10
+msgid "EasyCam"
+msgstr "EasyCam"
 
-#: ../src/interface.c:481
+#: ../easycam.glade.h:11
+msgid "Easycam"
+msgstr "Easycam"
+
+#: ../easycam.glade.h:12
+msgid "General Public Licence (GPL)"
+msgstr "General Public Licence (GPL)"
+
+#: ../easycam.glade.h:13
 msgid ""
-"L'installation a ÈchouÈ ! Vous pouvais consulter le log \n"
-"ci-dessous o˘ les messages d'erreur ont Ètais enrengistrÈ. \n"
+"Installateur de Drivers pour Webcam \n"
+"sous Debian (et d√©riv√©)"
+msgstr ""
+"Installationsprogram f√ºr Webcam-Treiber\n"
+"unter Debian (und auf Debian basierenden Distros)"
+
+#: ../easycam.glade.h:15
+msgid "Installation ....."
+msgstr "Installation ....."
+
+#: ../easycam.glade.h:16 ../install.py:31
+msgid "Installation du drivers"
+msgstr "Installation des Treibers"
+
+#: ../easycam.glade.h:17
+msgid ""
+"L'installation a √©chou√© ! Vous pouvais consulter le log \n"
+"ci-dessous o√π les messages d'erreur ont √©tais enrengistr√©. \n"
 "Pour recevoir de l'aide, veuillez vous adresser\n"
 "a une des adresses suivantes : \n"
 "\n"
@@ -133,17 +86,94 @@ msgid ""
 "\n"
 "Merci "
 msgstr ""
-"Die Installation ist fehlgeschlagen. Pr¸fen Sie das unten\n"
+"Die Installation ist fehlgeschlagen. Pr√ºfen Sie das unten\n"
 "stehende Protokoll auf Fehlermeldungen.\n"
-"Wenn Sie Hilfe benˆtigen, erreichen Sie uns:\n"
+"Wenn Sie Hilfe ben√∂tigen, erreichen Sie uns:\n"
 "\n"
 "per E-Mail : jbtheou@gmail.com\n"
 "im Forum : http://forum.ubuntu-fr.org/viewtopic.php?id=16670\n"
 "\n"
 "Vielen Dank "
 
-#: ../src/support.c:60 ../src/support.c:85
-#, c-format
-msgid "Couldn't find pixmap file: %s"
-msgstr "pixmap Datei %s nicht gefunden"
+#: ../easycam.glade.h:26
+msgid ""
+"L'installation est termin√© ! \n"
+"Pour tester votre webcam : Outils -> Webcam"
+msgstr ""
+"Installation beendet!\n"
+"Testen Sie Ihre Webcam mit: Extras -> Webcam"
 
+#: ../easycam.glade.h:28
+msgid "Lancer l'installation"
+msgstr "Installation starten"
+
+#: ../easycam.glade.h:29
+msgid "Log"
+msgstr "Protokoll"
+
+#: ../easycam.glade.h:30
+msgid "Nouvelle installation"
+msgstr "Neue Installation"
+
+#: ../easycam.glade.h:31
+msgid "Propri√©t√©s"
+msgstr "Eigenschaften"
+
+#: ../easycam.glade.h:32
+msgid "Pr√©ferences"
+msgstr "Voreinstellungen"
+
+#: ../easycam.glade.h:33
+msgid "Quitter"
+msgstr "Ende"
+
+#: ../easycam.glade.h:34
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../easycam.glade.h:35
+msgid "Veuillez choisir votre webcam parmis la liste ci-dessous "
+msgstr "Bitte w√§hlen Sie Ihre Webcam aus der folgenden Liste aus:"
+
+#: ../easycam.glade.h:36
+msgid "Webcam"
+msgstr "Webcam"
+
+#: ../easycam.glade.h:37
+msgid "_Fichier"
+msgstr "Datei"
+
+#: ../easycam.glade.h:38
+msgid "√Ä Propos"
+msgstr "√úber"
+
+#: ../easycam.py:111
+msgid "Aucune cam√©ra trouv√©e ou cam√©ra non compatible"
+msgstr "Keine oder keine kompatible Kamera gefunden"
+
+#. config file is missing#: ../easycam.py:167
+msgid ""
+"Le fichier de configuration n'a pas √©t√© d√©tecter\n"
+"Reinstallez easycam"
+msgstr ""
+"Die Konfigurationsdatei fehlt.\n"
+"Bitte installieren Sie easycam neu."
+
+#. error in XML syntax#: ../easycam.py:171
+msgid ""
+"Le fichier de configuration est d√©fectueux.\n"
+"Reinstallez easycam"
+msgstr ""
+"Die Konfigurationsdatei ist fehlerhaft.\n"
+"Bitte installieren Sie easycam neu."
+
+#: ../install.py:47
+msgid "Installation du drivers : OK"
+msgstr "Installation des Treibers: OK"
+
+#: ../install.py:51
+msgid "Installation du drivers : KO"
+msgstr "Installation des Treibers: Fehler"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "pixmap Datei %s nicht gefunden"

@@ -1,8 +1,12 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Module d'install d'EasyCam
 import os
 import gtk, gtk.glade
+import gettext
 from easycam import *
+
+_ = gettext.gettext
 
 def base(self, drivers, gcc):
     r = 'sudo rm -rf /lib/modules/`uname -r`/kernel/drivers/usb/media/%s' %drivers
@@ -24,7 +28,7 @@ def base(self, drivers, gcc):
     os.system("sudo ln -s /usr/src/linux-headers-`uname -r` /lib/modules/`uname -r`/build")
     os.system(export1)
     os.system(export2)
-    progressbar.set_text("Installation du drivers")
+    progressbar.set_text( _("Installation du drivers") )
     os.system("make clean")
     progressbar.set_fraction(0.15) 
     os.chdir(dir)
@@ -40,10 +44,10 @@ def base(self, drivers, gcc):
     try:
         os.system(mod)
         progressbar.set_fraction(1)
-        progressbar.set_text("Installation du drivers : OK")
+        progressbar.set_text( _( u"Installation du drivers : OK") )
         self.gui.get_widget("druidpagefinish1").show()
     except:
         progressbar.set_fraction(0)
-        progressbar.set_text("Installation du drivers : KO")
+        progressbar.set_text( _( u"Installation du drivers : KO"))
         self.gui.get_widget("errorwindows").show()
    
