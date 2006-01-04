@@ -76,13 +76,47 @@ class ConfigInfo:
 	# @return dictionary with information, or None, if not found
 	def getDriverInfo(self,mod):
 		infos = None
+
+		name = None
+		needs = None
+		home = None
+		source = None
 		if mod:
-			name = mod.getAttribute("driver:name")
-			needs = mod.getAttribute("driver:needs")
-			home =  mod.getAttribute("driver:homepage")
-			source = mod.getAttribute("driver:source")
+			try:
+				name = mod.getAttribute("driver:name")
+			except AttributeError:
+				pass
+			try:
+				needs = mod.getAttribute("driver:needs")
+			except AttributeError:
+				pass
+			try:
+				home =  mod.getAttribute("driver:homepage")
+			except AttributeError:
+				pass
+			try:
+				source = mod.getAttribute("driver:source")
+			except AttributeError:
+				pass
 			infos = {'name': name, 'needs': needs, 'homepage': home, 'source': source}
 		return infos
 
+	##
+	# returns the name of the driver for camera with USB ID
+	#
+	# If more than one drivers are present, it will pick the first
+	# one, silently dropping the rest. 
+	#
+	# @param mod pointer to driver element
+	# @return name of the driver, or "", if none is found
+	def getDriverName(self,usbid):
+		name = None
+		mods = self.getDriverListByID(usbid)
+		if mods:
+			infos = self.getDriverInfo(mods[0])
+			name = infos['name']
+		if name == None:
+			name = ""
+		return name
 
 

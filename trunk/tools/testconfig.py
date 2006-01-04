@@ -64,6 +64,11 @@
 #   moreinfo = cf.getDriverInfo(singledriver)
 #   print "driver name:", moreinfo['name']
 #
+# ConfigInfo.getDriverName(usbid):
+# --------------------------------
+# This function returns the name of the driver or "" when no driver is found
+#
+#
 
 import sys
 sys.path.append("../")	# see above remarks
@@ -105,3 +110,6 @@ if __name__ == "__main__":
 			print "needs easycam v.", moreinfo['needs']
 	else:					# list was empty
 		print "No info for this camera"
+
+	print "No driver of 0123.abcd: ", cf.getDriverName("1234:abcd")
+	print "only the first pick for 054c:0155: ", cf.getDriverName("054c:0155")
